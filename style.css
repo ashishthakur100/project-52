@@ -1,0 +1,42 @@
+ h1{
+    color: #dc143c;  
+  }
+  *{
+    border: double;
+}
+.chameleon{
+ color: darkorange;
+ justify-content: space-evenly;
+}
+.pigeons{
+    color: firebrick;
+    justify-content: flex-start;
+}
+.origami{
+  align-content: center;
+  border-radius: 20px;
+  background-color: #d2691e;
+  padding: 30px;
+  margin: 25px;
+  width: 310px;
+  font-family: Forte;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  background-color: yell#9acd32;
+  padding: 15px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 400;
+  color: #b22222;
+}
+a:link{
+  color: aliceblue;
+}
+a:visited{
+  color: cyan;
+}
+.origami:hover{
+  transform: scale(1.2);
+}
